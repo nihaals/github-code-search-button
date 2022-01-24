@@ -4,6 +4,9 @@
 // @description  Adds a button that takes you to GitHub Code Search for the current repo
 // @author       Nihaal Sangha
 // @run-at       document-end
+// @updateURL    https://raw.githubusercontent.com/nihaals/github-code-search-button/main/github-code-search-button.user.js
+// @downloadURL  https://raw.githubusercontent.com/nihaals/github-code-search-button/main/github-code-search-button.user.js
+// @supportURL   https://github.com/nihaals/github-code-search-button/issues
 // @include      https://github.com/*/*
 // ==/UserScript==
 
