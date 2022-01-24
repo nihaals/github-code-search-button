@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         GitHub Code Search Button
-// @version      1.0.0
+// @version      1.0.1
 // @description  Adds a button that takes you to GitHub Code Search for the current repo
 // @author       Nihaal Sangha
 // @run-at       document-end
@@ -32,7 +32,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-(async () => {
+(() => {
   let btns = document.querySelector(".pagehead-actions.flex-shrink-0.d-none.d-md-inline");
   if (!btns) return;
 
